@@ -18,10 +18,11 @@ const NavBar = () => {
       </Link>
 
       <div className='flex flex-wrap justify-around items-center gap-8 w-full sm:w-auto'>
-        <Link to={'/about'} className='text-textColor text-lg sm:text-2xl   font-mono' >About</Link>
+
         <Link to={'/contact'} className='text-textColor text-lg sm:text-2xl  font-mono'>Contact</Link>
         <Link to={'/projects'} className='text-textColor text-lg sm:text-2xl  font-mono'>Projects</Link>
         <Link to={'/skills'}  className='text-textColor text-lg sm:text-2xl  font-mono'>Skills</Link>
+        <a href="https://drive.google.com/file/d/1hD79vil8TMcs6vjygdIMx6J5rhgDECIh/view?usp=drive_link" target='_blank' className='text-textColor text-lg sm:text-2xl  font-mono' >Resume</a>
       </div>
      
     </motion.div>

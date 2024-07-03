@@ -7,6 +7,19 @@ import Skills from './components/Skills'
 import Contact from './components/Contact'
 import About from './components/About'
 function App() {
+  const projects = [
+    {
+      
+    },
+    {
+      
+    },
+    {
+
+    },
+
+  ]
+  
 
   return (
     <>
@@ -18,7 +31,7 @@ function App() {
        <Route path='/projects' element={<Projects/>} />
        <Route path='/skills' element={<Skills/>} />
        <Route path='/Contact' element={<Contact/>} />
-       <Route path='/about' element={<About/>} />
+       
        
     </Route>
     </Routes>

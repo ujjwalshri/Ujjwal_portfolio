@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Projects = () => {
+const Projects = ({data}) => {
   return (
-    <div>Projects</div>
+    <>
+
+    </>
   )
 }
 
