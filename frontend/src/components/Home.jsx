@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import Interests from './Interests'
 import About from './About'
+import Footer from './Footer'
 
 const myData = {
   name : "Ujjwal Shrivastava", 
@@ -16,8 +17,8 @@ const Home = () => {
     <div className='grid grid-cols-1 text-white'>
         <HeroSection/>
         <About data={myData}/>
-        <Interests/>
-
+        <Footer/>
+        
 
     </div>
   )

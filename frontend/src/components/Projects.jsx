@@ -21,7 +21,7 @@ const Projects = ({ data }) => {
 
         <div className='grid grid-cols-1 p-8 md:p-28 gap-8 md:gap-16 mx-4 md:mx-48'>
           {data.map((d, index) => (
-            <div key={index} className='p-4 md:p-10 border rounded-3xl' data-aos='flip-up'>
+            <div key={index} className=' p-10 md:p-10 border rounded-3xl' data-aos='flip-right'>
               <img
                 src={d.img[0]}
                 alt={`Image ${index}`}
