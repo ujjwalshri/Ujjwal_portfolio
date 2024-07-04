@@ -1,10 +1,16 @@
 import React from 'react'
 import HorizontalLine from './HorizontalLine'
+import PieChart from './Chart'
+import Chart from './Chart'
 
 const Skills = () => {
   return (
-    <div>
-      <div className='flex justify-center items-center mt-8'>
+    <div className='w-full h-full'>
+      <div className='flex w-full h-full justify-center items-center mt-16'>
+      <Chart className='text-white'/>
+    </div>
+
+      {/* <div className='flex justify-center items-center mt-8'>
       <HorizontalLine/>
       </div>
      
@@ -61,9 +67,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-
-
-
+     */}
     </div>
     
     
