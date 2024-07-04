@@ -9,13 +9,22 @@ import About from './components/About'
 function App() {
   const projects = [
     {
-      
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
     },
     {
-      
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
     },
     {
-
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
     },
 
   ]
@@ -28,7 +37,7 @@ function App() {
     
     <Route path="/" element={<Layout/>}>
        <Route path='/' element={<Home/>} />
-       <Route path='/projects' element={<Projects/>} />
+       <Route path='/projects' element={<Projects data={projects} />} />
        <Route path='/skills' element={<Skills/>} />
        <Route path='/Contact' element={<Contact/>} />
        
