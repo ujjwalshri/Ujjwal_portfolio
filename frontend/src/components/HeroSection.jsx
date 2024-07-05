@@ -11,7 +11,7 @@ const HeroSection = () => {
          <div className='ml-6 mt-6 text-4xl '>~ I am Ujjwal Shrivastava </div>
          <SocialLinks/>
         </div>
-        <motion.img className='' src="../public/images/photo.png" alt="" initial={{ opacity: 0, scale: 0.2 }}
+        <motion.img className='pb-40' src="../public/images/photo.png" alt="" initial={{ opacity: 0, scale: 0.2 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }} />
     
