@@ -20,6 +20,33 @@ function App() {
       description: "Document making website with the real time colaboration functionality using web sockets",
       techStack: "React.js | node.js | Quill.js | Websockets"
     },
+    {
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
+    },
+    {
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
+    },
+    {
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
+    },
+    {
+      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      name: "CO-Z",
+      description: "booking website with beautifull frontend",
+      techStack: "React.js | node.js | express.js | mongodb"
+    },
+
+
+
   ]
   
 
