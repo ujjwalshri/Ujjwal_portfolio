@@ -6,44 +6,25 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import About from './components/About'
+import p1i1 from './images/p1I1.png';
+import p1i2 from './images/p2i2.png';
+import p1i3 from './images/p3i3.png';
+import p2i1 from './images/p2i1.png';
 function App() {
   const projects = [
     {
-      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
+      img: [p1i1 , p1i2  , p1i3],
       name: "CO-Z",
       description: "booking website with beautifull frontend",
       techStack: "React.js | node.js | express.js | mongodb"
     },
     {
-      img: ["../public/images/p2i1.png" , "../public/images/p2i3.png" ,""],
+      img: [p2i1 ],
       name: "Google docs clone",
       description: "Document making website with the real time colaboration functionality using web sockets",
       techStack: "React.js | node.js | Quill.js | Websockets"
     },
-    {
-      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
-      name: "CO-Z",
-      description: "booking website with beautifull frontend",
-      techStack: "React.js | node.js | express.js | mongodb"
-    },
-    {
-      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
-      name: "CO-Z",
-      description: "booking website with beautifull frontend",
-      techStack: "React.js | node.js | express.js | mongodb"
-    },
-    {
-      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
-      name: "CO-Z",
-      description: "booking website with beautifull frontend",
-      techStack: "React.js | node.js | express.js | mongodb"
-    },
-    {
-      img: ["../public/images/p1i1.png" , "../public/images/p2i2.png" , "../public/images/p3i3.png"],
-      name: "CO-Z",
-      description: "booking website with beautifull frontend",
-      techStack: "React.js | node.js | express.js | mongodb"
-    },
+   
 
 
 

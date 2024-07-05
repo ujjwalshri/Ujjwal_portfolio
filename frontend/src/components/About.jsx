@@ -1,5 +1,6 @@
 import React from 'react';
 import HorizontalLine from './HorizontalLine';
+import perfectLogo from '../images/perfectlogo.png';
 import Aos from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
@@ -24,7 +25,7 @@ const About = ({ data }) => {
           </p>
         </div>
         <div className='flex justify-center items-center p-0'>
-          <img className='w-48 h-48 md:w-[50vh] md:h-[50vh]' src="../public/images/perfectlogo.png" alt="Logo" data-aos = "fade-left" />
+          <img className='w-48 h-48 md:w-[50vh] md:h-[50vh]' src={perfectLogo} alt="Logo" data-aos = "fade-left" />
         </div>
       </div>
     </div>

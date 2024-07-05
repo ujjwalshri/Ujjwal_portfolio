@@ -1,5 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import gitub from '../images/github.png';
+import leetcode from '../images/download.png';
+import linkedin from '../images/linkedin.png';
+
+
 
 const SocialLinks = () => {
   return (
@@ -19,7 +24,7 @@ const SocialLinks = () => {
           >
             <img
               className='w-10 h-10 md:w-12 md:h-12 rounded-full p-1'
-              src="../public/images/download.png"
+              src={leetcode}
               alt="Leetcode"
             />
             <span>Leetcode</span>
@@ -35,7 +40,7 @@ const SocialLinks = () => {
           >
             <img
               className='w-10 h-10 md:w-12 md:h-12 rounded-full'
-              src="../public/images/github.png"
+              src={gitub}
               alt="Github"
             />
             <span>Github</span>
@@ -51,7 +56,7 @@ const SocialLinks = () => {
           >
             <img
               className='w-10 h-10 md:w-12 md:h-12 rounded-full p-1'
-              src="../public/images/linkedin.png"
+              src={linkedin}
               alt="LinkedIn"
             />
             <span>LinkedIn</span>

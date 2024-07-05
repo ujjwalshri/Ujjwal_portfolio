@@ -4,6 +4,7 @@ import Interests from './Interests'
 import About from './About'
 import Footer from './Footer'
 
+
 const myData = {
   name : "Ujjwal Shrivastava", 
   age: 20,

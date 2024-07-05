@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion';
+import perfectLogo from '../images/perfectlogo.png';
 import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
@@ -15,7 +16,7 @@ const NavBar = () => {
       <Link to={'/'} className='w-1/6 rounded-3xl flex justify-center items-center'>
         <h1 className='font-bold text-2xl text-white '>
           <div className='flex justify-center ite'>
-          <img className='w-3/4 h-3/4' src="../public/images/perfectlogo.png" alt="" />
+          <img className='w-3/4 h-3/4' src={perfectLogo} alt="" />
           </div>
        
         </h1>
