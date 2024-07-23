@@ -7,6 +7,9 @@ const Contact = () => {
       <div className='flex justify-center items-center mt-8 md:mt-16'>
         <h1 className='text-4xl md:text-6xl font-mono font-extrabold text-white'>Contact Us</h1>
       </div>
+      <div className='flex justify-center items-center mt-4 md:mt-8'>
+        <p className='text-lg md:text-2xl font-mono font-semibold text-white'>We would love to hear from you!</p>
+      </div>
 
       <div className='flex justify-center items-center w-full h-full mt-8 md:mt-16'>
         <motion.form
